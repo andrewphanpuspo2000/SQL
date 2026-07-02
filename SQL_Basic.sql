@@ -225,3 +225,103 @@ from services_australia.hospital
 where bill=(select max(bill)
 from services_australia.hospital
 where bill < (select max(bill) from services_australia.hospital));
+
+-- Join for more detail find out in visual join website https://joins.spathon.com/
+
+create database reading_cinema;
+
+use reading_cinema;
+
+CREATE TABLE Movies(
+movie_id int primary key,
+title varchar(50) not null,
+director varchar(50),
+release_year int
+);
+
+INSERT INTO Movies(movie_id,title,director,release_year) 
+VALUES (1, 'Inception', 'Christopher Nolan', 2010),
+    (2, 'The Dark Knight', 'Christopher Nolan', 2008),
+    (3, 'Avatar', 'James Cameron', 2009),
+    (4, 'Parasite', 'Bong Joon-ho', 2019),
+    (5, 'Interstellar', 'Christopher Nolan', 2014);
+    
+CREATE TABLE Visitors(
+visitor_id int primary key,
+first_name varchar(255) not null,
+last_name varchar(255) not null,
+email varchar(255) unique not null,
+phone varchar(15)
+);
+  
+INSERT INTO Visitors (visitor_id, first_name, last_name, email, phone)
+VALUES
+    (1001, 'John', 'Smith', 'john.smith@email.com', '081234567801'),
+    (1002, 'Emma', 'Johnson', 'emma.johnson@email.com', NULL),
+    (1003, 'Michael', 'Brown', 'michael.brown@email.com', '081234567803'),
+    (1004, 'Sophia', 'Davis', 'sophia.davis@email.com', NULL),
+    (1005, 'William', 'Miller', 'william.miller@email.com', '081234567805'),
+    (1006, 'Olivia', 'Wilson', 'olivia.wilson@email.com', '081234567806'),
+    (1007, 'James', 'Moore', 'james.moore@email.com', NULL),
+    (1008, 'Ava', 'Taylor', 'ava.taylor@email.com', '081234567808'),
+    (1009, 'Benjamin', 'Anderson', 'benjamin.anderson@email.com', NULL),
+    (1010, 'Isabella', 'Thomas', 'isabella.thomas@email.com', '081234567810'),
+	(1011, 'Kurt', 'Hert', 'kurt.Hert@email.com', '081234567810'),
+    (1012, 'Goban', 'Chev', 'Goban.Chev@email.com', '081234567810'),
+    (1013, 'Mat', 'Howie', 'Mat.Howie@email.com', '081234567810')
+    ;
+
+
+CREATE TABLE Details(
+ visitor_id int,
+ movie_id int,
+ date_visited date,
+ FOREIGN KEY (visitor_id) REFERENCES Visitors(visitor_id),
+ FOREIGN KEY (movie_id) REFERENCES Movies(Movie_id)
+);
+
+INSERT INTO Details (visitor_id, movie_id, date_visited)
+VALUES
+	(1001, 1, '2025-01-05'),
+	(1002, 3, '2025-01-08'),
+    (1003, 2, '2025-01-10'),
+    (1004, 5, '2025-01-12'),
+    (1005, 4, '2025-01-15'),
+    (1006, 1, '2025-01-18'),
+    (1007, 3, '2025-01-20'),
+    (1007, 2, '2025-01-22'),
+    (1009, 5, '2025-01-25'),
+	(1010, 4, '2025-01-28'),
+	(1013, 2, '2025-01-28')
+    ;
+    
+Select * from reading_cinema.movies;
+Select * from reading_cinema.visitors;
+Select * from reading_cinema.details;
+
+-- inner join
+select *
+from reading_cinema.visitors v1
+inner join reading_cinema.details d1
+on v1.visitor_id=d1.visitor_id;
+
+-- write a sql query to find name of visitors who visited 28 January 2025
+select v1.first_name, v1.last_name, concat(v1.first_name,' ',v1.last_name) as full_name
+from reading_cinema.visitors v1
+inner join reading_cinema.details d1
+on v1.visitor_id=d1.visitor_id
+where d1.date_visited="2025-01-28";
+
+-- left join
+-- write a sql query to find all visitor who have visited cinema as well as have not visited cinema
+select *
+from reading_cinema.visitors v1
+left join reading_cinema.details d1
+on v1.visitor_id=d1.visitor_id;
+
+-- name of visitor who have not seen any movies
+select *
+from reading_cinema.visitors v1
+left join reading_cinema.details d1
+on v1.visitor_id=d1.visitor_id
+where d1.visitor_id is null;

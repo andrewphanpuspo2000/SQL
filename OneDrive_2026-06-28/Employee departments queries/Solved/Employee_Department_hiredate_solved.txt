@@ -1,0 +1,90 @@
+List all employees along with their department name and hire date.
+
+
+SELECT e.employee_name, d.department_name, eh.Hire_date
+FROM employees e
+INNER JOIN departments d ON e.department_id = d.department_id
+INNER JOIN employee_hiredate eh ON e.employee_id = eh.id;
+
+Retrieve all employees who belong to a department, have a salary greater than $50,000, and were hired after January 1, 2022.
+
+
+SELECT e.employee_name, e.salary, d.department_name, eh.Hire_date
+FROM employees e
+INNER JOIN departments d ON e.department_id = d.department_id
+INNER JOIN employee_hiredate eh ON e.employee_id = eh.id
+WHERE e.salary > 50000 AND eh.Hire_date > '2022-01-01';
+
+Find the department name and the number of employees in each department, including departments with no employees, and show the hire date of the first employee hired.
+
+
+SELECT d.department_name, COUNT(e.employee_id) AS employee_count, MIN(eh.Hire_date) AS first_hire_date
+FROM departments d
+LEFT JOIN employees e ON d.department_id = e.department_id
+LEFT JOIN employee_hiredate eh ON e.employee_id = eh.id
+GROUP BY d.department_name;
+
+List all employees and their departments, but exclude those who do not belong to any department and show their hire date.
+
+
+SELECT e.employee_name, e.salary, d.department_name, eh.Hire_date
+FROM employees e
+INNER JOIN departments d ON e.department_id = d.department_id
+INNER JOIN employee_hiredate eh ON e.employee_id = eh.id;
+
+Get the total salary of employees for each department, including departments that have no employees, and show the hire date of the earliest employee hired.
+
+
+SELECT d.department_name, SUM(e.salary) AS total_salary, MIN(eh.Hire_date) AS earliest_hire_date
+FROM departments d
+LEFT JOIN employees e ON d.department_id = e.department_id
+LEFT JOIN employee_hiredate eh ON e.employee_id = eh.id
+GROUP BY d.department_name;
+
+Show all employees with their department name, salary, and hire date, but only for employees hired after January 1, 2022.
+
+
+SELECT e.employee_name, e.salary, d.department_name, eh.Hire_date
+FROM employees e
+INNER JOIN departments d ON e.department_id = d.department_id
+INNER JOIN employee_hiredate eh ON e.employee_id = eh.id
+WHERE eh.Hire_date > '2022-01-01';
+
+Retrieve the names of employees who are not assigned to any department, along with their salary and hire date.
+
+
+SELECT e.employee_name, e.salary, eh.Hire_date
+FROM employees e
+LEFT JOIN departments d ON e.department_id = d.department_id
+INNER JOIN employee_hiredate eh ON e.employee_id = eh.id
+WHERE e.department_id IS NULL;
+
+Find departments that have no employees assigned to them, and show the department name and 'No Employees', along with the hire date of the first employee in each department.
+
+
+SELECT d.department_name, 'No Employees' AS employee_status, MIN(eh.Hire_date) AS first_hire_date
+FROM departments d
+LEFT JOIN employees e ON d.department_id = e.department_id
+LEFT JOIN employee_hiredate eh ON e.employee_id = eh.id
+WHERE e.department_id IS NULL
+GROUP BY d.department_name;
+
+List all departments and employees with their department name, salary, and hire date, including employees with no department, but only for employees with a salary above $60,000.
+
+
+SELECT e.employee_name, e.salary, d.department_name, eh.Hire_date
+FROM employees e
+LEFT JOIN departments d ON e.department_id = d.department_id
+LEFT JOIN employee_hiredate eh ON e.employee_id = eh.id
+WHERE e.salary > 60000;
+
+Find the department with the highest number of employees, including departments with no employees. Display the department name, employee count, and the hire date of the earliest hired employee in that department.
+
+
+SELECT d.department_name, COUNT(e.employee_id) AS employee_count, MIN(eh.Hire_date) AS earliest_hire_date
+FROM departments d
+LEFT JOIN employees e ON d.department_id = e.department_id
+LEFT JOIN employee_hiredate eh ON e.employee_id = eh.id
+GROUP BY d.department_name
+ORDER BY employee_count DESC
+LIMIT 1;

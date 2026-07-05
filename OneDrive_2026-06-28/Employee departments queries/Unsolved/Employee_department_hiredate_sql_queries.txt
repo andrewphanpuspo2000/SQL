@@ -1,0 +1,18 @@
+List all employees along with their department name and hire date.
+
+Retrieve all employees who belong to a department and have a salary greater than $50,000.
+
+Find the department name and the number of employees in each department, including departments with no employees, and show the hire date of the first employee hired.
+
+List all employees and their departments, but exclude those who do not belong to any department and show their hire date.
+Get the total salary of employees for each department, including departments that have no employees, and show the hire date of the earliest employee hired.
+
+Show all employees with their department name, salary, and hire date, but only for employees hired after January 1, 2022.
+
+Retrieve the names of employees who are not assigned to any department, along with their salary and hire date.
+
+Find departments that have no employees assigned to them, and show the department name and 'No Employees', along with the hire date of the first employee in each department.
+
+List all departments and employees with their department name, salary, and hire date, including employees with no department, but only for employees with a salary above $60,000.
+
+Find the department with the highest number of employees, including departments with no employees. Display the department name, employee count, and the hire date of the earliest hired employee in that department.

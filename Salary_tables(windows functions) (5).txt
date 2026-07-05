@@ -1,0 +1,45 @@
+-- Create the employee table
+CREATE TABLE employee (
+    emp_id INT PRIMARY KEY,
+    emp_name VARCHAR(50),
+    department_name VARCHAR(50),
+    salary INT,
+    hire_date DATE
+);
+
+-- Insert data into the employee table
+INSERT INTO employee(emp_id,emp_name,department_name,salary,hire_date)
+ VALUES (101, 'Aarav', 'Admin', 4000, '2020-01-15'),
+(102, 'Rajani', 'HR', 3000, '2019-05-20'),
+(103, 'Aakash', 'IT', 4000, '2020-03-10'),
+(104, 'Devika', 'Finance', 6500, '2018-12-05'),
+(105, 'Roshan', 'HR', 3000, '2021-02-28'),
+(106, 'Rajendra', 'Finance', 5000, '2019-08-10'),
+(107, 'Pratima', 'HR', 7000, '2022-04-15'),
+(108, 'Maya', 'Admin', 4000, '2021-09-20'),
+(109, 'Santosh', 'IT', 6500, '2023-06-25'),
+(110, 'Vishal', 'IT', 7000, '2023-11-30'),
+(111, 'Mira', 'IT', 8000, '2024-03-12'),
+(112, 'Komal', 'IT', 10000, '2022-07-18'),
+(113, 'Gagan', 'Admin', 2000, '2024-02-03'),
+(114, 'Manjari', 'HR', 3000, '2022-11-08'),
+(115, 'Chandani', 'IT', 4500, '2023-04-25'),
+(116, 'Satish', 'Finance', 6500, '2021-06-30'),
+(117, 'Anand', 'HR', 3500, '2020-10-15'),
+(118, 'Tejas', 'Finance', 5500, '2022-01-05'),
+(119, 'Chandrika', 'HR', 8000, '2023-09-10'),
+(120, 'Monika', 'Admin', 5000, '2024-05-18'),
+(121, 'Ranjana', 'IT', 6000, '2021-08-22'),
+(122, 'Ishwar', 'IT', 8000, '2022-12-08'),
+(123, 'Vikas', 'IT', 8000, '2020-10-30'),
+(124, 'Dhirendra', 'IT', 11000, '2019-03-15'),
+(125, 'Sunita', 'Admin', 5500, '2024-05-28'),
+(126, 'Varsha', 'IT', 7000, '2024-06-10'),
+(127, 'Pooja', 'HR', 4500, '2024-06-15'),
+(128, 'Amitabh', 'Finance', 6000, '2024-07-02'),
+(129, 'Neelam', 'Admin', 4800, '2024-07-20'),
+(130, 'Ravi', 'IT', 7500, '2024-08-05'),
+(131, 'Kirti', 'HR', 4000, '2024-08-18'),
+(132, 'Anita', 'Finance', 6200, '2024-09-03'),
+(133, 'Arjun', 'Admin', 5300, '2024-09-22'),
+(134, 'Rajeshwor', 'IT', 7800, '2024-10-10');

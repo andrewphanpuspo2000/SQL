@@ -1,0 +1,10 @@
+Retrieve the first name and last name of employees who were hired in 2022.
+Count the total number of employees hired in each year.
+Find the average completion time of tasks for each project.
+List the projects along with the number of tasks assigned to each project.
+Find the employees who completed their tasks after the due date, along with the number of such tasks for each employee.
+Identify projects with at least one task overdue, and calculate the total number of overdue tasks for each project.
+Find the top 5 employees with the highest average completion time for tasks, excluding employees with fewer than 5 completed tasks.
+Calculate the total duration of tasks for each project, considering only tasks completed within one week from the due date.
+Find the projects with the highest and lowest average completion times for tasks, considering only projects with at least 5 completed tasks.
+List the projects along with the number of tasks completed within 3 days from the due date.

@@ -1,0 +1,19 @@
+product_id,product_name,category,rate_type,base_rate_pct
+PRD267556392,Owner-Occupier Home Loan,Mortgage,Variable,6.14
+PRD180516993,Investor Home Loan,Mortgage,Variable,6.49
+PRD895441262,Fixed 3yr Home Loan,Mortgage,Fixed,6.29
+PRD585626321,Construction Loan,Mortgage,Variable,6.74
+PRD547105903,Personal Loan Unsecured,Personal,Fixed,11.99
+PRD445369281,Personal Loan Secured,Personal,Fixed,8.49
+PRD687316901,Car Loan,Auto,Fixed,7.29
+PRD913476803,Green Car Loan,Auto,Fixed,6.79
+PRD601444588,Business Term Loan,Business,Variable,8.95
+PRD868917189,Equipment Finance,Business,Fixed,7.85
+PRD062672789,Line of Credit,Business,Variable,9.4
+PRD906764869,Overdraft Facility,Business,Variable,12.5
+PRD458474844,Credit Card Standard,Card,Variable,19.99
+PRD003902660,Credit Card Low Rate,Card,Variable,12.99
+PRD560951367,Debt Consolidation Loan,Personal,Fixed,10.49
+PRD430817239,First Home Buyer Loan,Mortgage,Fixed,5.99
+PRD109671305,Bridging Loan,Mortgage,Variable,7.1
+PRD821572679,Caravan Loan,Auto,Fixed,8.1

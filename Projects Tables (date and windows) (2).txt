@@ -1,0 +1,73 @@
+-- Employees table
+CREATE TABLE Employees (
+    employee_id INT PRIMARY KEY,
+    first_name VARCHAR(255),
+    last_name VARCHAR(255),
+    hire_date DATE
+);
+
+-- Insert data into Employees table
+INSERT INTO Employees (employee_id, first_name, last_name, hire_date)
+VALUES 
+    (1, 'Smith', 'Damy', '2015-03-15'),
+    (2, 'Jany', 'Sammy', '2016-07-22'),
+    (3, 'Sam', 'Brown', '2018-11-05'),
+    (4, 'Nancy', 'Green', '2020-01-10'),
+    (5, 'Peter', 'White', '2022-05-19'),
+    (6, 'Rahul', 'Kumar', '2023-01-05'),
+    (7, 'Priya', 'Patel', '2023-05-12'),
+    (8, 'Amit', 'Sharma', '2023-09-18'),
+    (9, 'Sneha', 'Joshi', '2024-02-22'),
+    (10, 'Raj', 'Singh', '2024-04-30');
+
+-- Projects table
+CREATE TABLE Projects (
+    project_id INT PRIMARY KEY,
+    project_name VARCHAR(255),
+    start_date DATE,
+    end_date DATE
+);
+
+-- Insert data into Projects table
+INSERT INTO Projects (project_id, project_name, start_date, end_date)
+VALUES 
+    (101, 'Project Apple', '2021-01-01', '2021-06-30'),
+    (102, 'Project Microsoft', '2021-07-01', '2021-12-31'),
+    (103, 'Project Tesla', '2022-01-01', '2022-06-30'),
+    (104, 'Project Amazon', '2022-07-01', '2022-12-31'),
+    (105, 'Project Google', '2023-01-01', '2023-06-30');
+
+-- Tasks table
+CREATE TABLE Tasks (
+    task_id INT PRIMARY KEY,
+    task_name VARCHAR(255),
+    employee_id INT,
+    due_date DATE,
+    completion_date DATE,
+    project_id INT,
+    FOREIGN KEY (employee_id) REFERENCES Employees(employee_id),
+    FOREIGN KEY (project_id) REFERENCES Projects(project_id)
+);
+
+-- Insert data into Tasks table
+INSERT INTO Tasks (task_id, task_name, employee_id, due_date, completion_date, project_id)
+VALUES 
+    (1001, 'Design UI mockups', 1, '2022-02-15', '2022-02-14', 101),
+    (1002, 'Code backend logic', 2, '2022-03-01', '2022-03-05', 102),
+    (1003, 'Write project documentation', 3, '2022-04-10', '2022-04-08', 103),
+    (1004, 'Testing and debugging', 4, '2022-05-20', NULL, 104),
+    (1005, 'Prepare project presentation', 5, '2022-06-30', '2022-06-28', 105),
+    (1006, 'Update database schema', 6, '2022-07-15', NULL, 101),
+    (1007, 'Optimize backend performance', 7, '2022-08-01', NULL, 102),
+    (1008, 'Create user documentation', 8, '2022-09-10', NULL, 103),
+    (1009, 'Integration testing', 9, '2022-10-20', NULL, 104),
+    (1010, 'Prepare marketing materials', 10, '2022-11-30', NULL, 105),
+    (1011, 'Implement new feature', 1, '2023-01-15', NULL, 101),
+    (1012, 'Bug fixes and troubleshooting', 2, '2023-02-28', NULL, 102),
+    (1013, 'Customer support', 3, '2023-03-10', NULL, 103),
+    (1014, 'Data analysis and reporting', 4, '2023-04-20', NULL, 104),
+    (1015, 'Client meetings', 5, '2023-05-30', NULL, 105),
+    (1016, 'Prototype development', 6, '2023-07-15', NULL, 101),
+    (1017, 'Software deployment', 7, '2023-08-01', NULL, 102),
+    (1018, 'User training sessions', 8, '2023-09-10', NULL, 103),
+    (1019, 'Performance monitoring', 9, '2023-10-20', NULL,102);

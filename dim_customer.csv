@@ -1,0 +1,251 @@
+customer_id,first_name,last_name,segment,home_branch_bsb,credit_band
+CUS496582423,Hudson,Kelly,Self-Employed,082-451,Good
+CUS449993433,Hudson,Taylor,PAYG,032-520,Poor
+CUS004460901,Thomas,Jones,Owner-Occupier,034-829,Excellent
+CUS835775355,William,Jones,Owner-Occupier,084-670,Good
+CUS937646252,Ruby,Walker,First-Home Buyer,034-829,Fair
+CUS659175181,Liam,White,PAYG,084-670,Good
+CUS401439147,Lachlan,Kelly,Investor,086-756,Fair
+CUS555157994,Mia,Ryan,First-Home Buyer,086-756,Good
+CUS683155056,Noah,Chen,First-Home Buyer,012-239,Good
+CUS829922174,Isla,Martin,Owner-Occupier,034-829,Fair
+CUS940619848,Oliver,Lee,PAYG,013-628,Excellent
+CUS510216337,Hudson,Walker,SME,012-239,Fair
+CUS555277819,Grace,Singh,Owner-Occupier,012-239,Poor
+CUS178085016,William,Tran,PAYG,034-829,Poor
+CUS625366844,Charlotte,White,First-Home Buyer,013-628,Poor
+CUS422070970,Noah,Wilson,First-Home Buyer,016-609,Good
+CUS939798372,Cooper,Wilson,First-Home Buyer,033-954,Fair
+CUS476581736,William,Patel,Self-Employed,065-638,Excellent
+CUS030757369,Grace,Wilson,First-Home Buyer,064-310,Fair
+CUS482948802,Olivia,Nguyen,Investor,064-310,Good
+CUS215498177,Liam,Anderson,Self-Employed,037-060,Excellent
+CUS036317308,Chloe,Wilson,First-Home Buyer,018-614,Good
+CUS461847151,Amelia,Patel,PAYG,084-670,Fair
+CUS170673491,Jack,Taylor,Self-Employed,064-310,Good
+CUS468456814,Cooper,Williams,First-Home Buyer,037-060,Excellent
+CUS497576112,William,Wilson,Investor,016-609,Good
+CUS607911302,Grace,O'Brien,Owner-Occupier,018-614,Poor
+CUS682326756,Cooper,Kumar,PAYG,018-614,Good
+CUS398045354,Amelia,Anderson,SME,016-609,Fair
+CUS854192484,Ava,Kumar,Self-Employed,064-310,Good
+CUS938390312,Liam,O'Brien,PAYG,018-614,Excellent
+CUS515471723,Zoe,Anderson,Self-Employed,083-823,Poor
+CUS842592104,Ava,Tran,Self-Employed,082-451,Fair
+CUS229817062,Willow,Brown,First-Home Buyer,012-239,Fair
+CUS990236702,Amelia,Chen,SME,034-829,Good
+CUS582439500,William,Patel,SME,013-628,Fair
+CUS756996477,Grace,O'Brien,Owner-Occupier,013-628,Fair
+CUS858866050,Ruby,O'Brien,PAYG,012-239,Good
+CUS954913173,Cooper,Smith,SME,013-628,Good
+CUS838463158,Olivia,Tran,PAYG,062-004,Good
+CUS911182189,Jack,Kelly,Investor,037-060,Poor
+CUS052177862,Liam,Tran,Owner-Occupier,037-060,Good
+CUS075457273,Charlotte,Taylor,First-Home Buyer,082-451,Excellent
+CUS702838330,Mia,Walker,First-Home Buyer,062-004,Fair
+CUS257612341,Noah,Lee,Investor,086-756,Fair
+CUS844581983,Olivia,Tran,First-Home Buyer,064-310,Poor
+CUS171781800,Mia,Anderson,First-Home Buyer,062-004,Good
+CUS912433248,William,Smith,Self-Employed,084-670,Excellent
+CUS960702185,Chloe,Smith,Self-Employed,037-060,Good
+CUS888292196,Ethan,Anderson,First-Home Buyer,086-756,Excellent
+CUS478399740,Charlotte,Chen,SME,034-829,Excellent
+CUS529097687,Jack,Jones,Owner-Occupier,034-829,Fair
+CUS989392046,Lachlan,Kumar,PAYG,065-638,Excellent
+CUS971826432,Willow,Kumar,SME,032-520,Good
+CUS567530279,William,Ryan,Self-Employed,032-520,Poor
+CUS036821684,Oliver,Smith,PAYG,086-756,Good
+CUS441836713,Lachlan,Kumar,Investor,032-520,Good
+CUS269059927,Noah,Patel,SME,032-520,Fair
+CUS365328273,Ruby,Ryan,First-Home Buyer,033-954,Good
+CUS772738661,Thomas,Singh,First-Home Buyer,062-463,Excellent
+CUS824869341,William,Singh,Investor,086-756,Good
+CUS105671654,Hudson,Smith,First-Home Buyer,012-239,Fair
+CUS937032892,Mia,O'Brien,SME,033-954,Excellent
+CUS828845762,Thomas,Anderson,PAYG,084-670,Fair
+CUS626853145,Noah,Brown,Owner-Occupier,062-463,Good
+CUS790413851,Ava,Tran,PAYG,065-638,Poor
+CUS161670765,Thomas,Tran,Investor,012-239,Good
+CUS372538156,Chloe,Chen,First-Home Buyer,037-060,Fair
+CUS061516406,Liam,Kelly,SME,018-614,Good
+CUS410055594,Willow,Wilson,PAYG,033-954,Good
+CUS695509310,Grace,Kumar,SME,083-823,Good
+CUS417766028,Chloe,Singh,SME,062-463,Good
+CUS293434338,Zoe,Patel,Owner-Occupier,086-756,Excellent
+CUS878198545,Jack,Walker,PAYG,016-609,Excellent
+CUS623225979,Grace,Kelly,First-Home Buyer,033-954,Good
+CUS335528211,Mia,Williams,SME,033-954,Fair
+CUS029670546,Cooper,Lee,PAYG,065-638,Good
+CUS552539296,William,Kumar,PAYG,065-638,Good
+CUS223694320,William,Lee,PAYG,065-638,Good
+CUS646620210,Ava,Anderson,Owner-Occupier,012-239,Excellent
+CUS508725147,Henry,Kelly,Investor,012-239,Fair
+CUS962963842,Amelia,Anderson,First-Home Buyer,033-954,Good
+CUS612504992,Cooper,Lee,First-Home Buyer,086-756,Good
+CUS173584802,Mia,Jones,Owner-Occupier,034-829,Excellent
+CUS572367065,Cooper,Anderson,Owner-Occupier,016-609,Fair
+CUS899443437,Charlotte,Wilson,Owner-Occupier,034-829,Good
+CUS811450841,Jack,Taylor,Owner-Occupier,082-451,Good
+CUS084376481,Chloe,Patel,PAYG,062-004,Poor
+CUS490092356,Hudson,Lee,First-Home Buyer,084-670,Fair
+CUS544159145,Olivia,Taylor,Owner-Occupier,064-310,Excellent
+CUS843251225,Grace,Nguyen,Owner-Occupier,012-239,Good
+CUS806158302,Liam,Williams,Self-Employed,018-614,Good
+CUS673762416,Lachlan,Wilson,First-Home Buyer,062-463,Poor
+CUS260399576,Liam,Williams,Owner-Occupier,084-670,Good
+CUS676683698,Hudson,Smith,Self-Employed,084-670,Good
+CUS749090528,Thomas,Kumar,First-Home Buyer,016-609,Good
+CUS786027132,Henry,Brown,Owner-Occupier,013-628,Fair
+CUS844120548,Ethan,Taylor,Self-Employed,062-463,Fair
+CUS637431187,Chloe,Tran,Owner-Occupier,033-954,Fair
+CUS081252150,Isla,Kelly,Owner-Occupier,062-004,Poor
+CUS296097711,Noah,Anderson,PAYG,018-614,Poor
+CUS386605549,Noah,Wilson,Investor,034-829,Excellent
+CUS970241459,Mia,Taylor,Owner-Occupier,083-823,Good
+CUS354632146,Ruby,O'Brien,First-Home Buyer,084-670,Good
+CUS281158637,Mia,Williams,First-Home Buyer,083-823,Good
+CUS737636937,Ava,O'Brien,First-Home Buyer,037-060,Good
+CUS974409306,Liam,Lee,SME,062-004,Good
+CUS451918173,Ava,Nguyen,First-Home Buyer,062-463,Excellent
+CUS950271527,Chloe,Kumar,Owner-Occupier,086-756,Good
+CUS066381017,Henry,Taylor,Self-Employed,016-609,Fair
+CUS752861102,Ruby,Lee,PAYG,033-954,Poor
+CUS167205501,Zoe,Anderson,Self-Employed,013-628,Good
+CUS148911932,Hudson,Martin,First-Home Buyer,037-060,Fair
+CUS533967039,Zoe,Williams,SME,064-310,Good
+CUS182298269,Amelia,O'Brien,Owner-Occupier,086-756,Good
+CUS216248906,Mia,Anderson,PAYG,032-520,Excellent
+CUS664134816,Chloe,Taylor,PAYG,064-310,Good
+CUS981644943,Grace,White,SME,082-451,Good
+CUS657104802,Zoe,Walker,SME,086-756,Good
+CUS150557388,Jack,Singh,SME,013-628,Good
+CUS095359543,Liam,Smith,First-Home Buyer,034-829,Good
+CUS718501349,Grace,Singh,SME,083-823,Good
+CUS491163450,William,Kelly,PAYG,037-060,Good
+CUS070691825,Jack,Kumar,PAYG,016-609,Good
+CUS980765121,William,Patel,SME,062-004,Good
+CUS175115811,Henry,Anderson,Owner-Occupier,016-609,Good
+CUS165821247,Grace,Patel,Investor,033-954,Good
+CUS766871829,Jack,Singh,Investor,082-451,Good
+CUS698679975,William,White,PAYG,012-239,Fair
+CUS517345690,Oliver,Lee,SME,086-756,Good
+CUS369182687,Amelia,Tran,Investor,013-628,Good
+CUS482059287,William,Ryan,First-Home Buyer,037-060,Good
+CUS132338951,Noah,Chen,Investor,082-451,Excellent
+CUS551494135,Zoe,Lee,PAYG,037-060,Excellent
+CUS448247140,Thomas,Martin,Investor,012-239,Good
+CUS282918289,Thomas,Kelly,Owner-Occupier,062-004,Fair
+CUS583775538,Ava,Tran,Owner-Occupier,013-628,Good
+CUS914019135,William,Smith,PAYG,083-823,Good
+CUS206928816,Olivia,Jones,Self-Employed,082-451,Good
+CUS973162731,Jack,Anderson,Self-Employed,083-823,Fair
+CUS244534282,Jack,Kumar,SME,018-614,Fair
+CUS218201144,Jack,O'Brien,Owner-Occupier,064-310,Poor
+CUS298910513,Isla,O'Brien,First-Home Buyer,018-614,Poor
+CUS356034095,Lachlan,Martin,PAYG,082-451,Good
+CUS736232347,Lachlan,Wilson,Investor,065-638,Good
+CUS989490243,Hudson,Walker,PAYG,016-609,Excellent
+CUS038118373,Zoe,Brown,First-Home Buyer,082-451,Excellent
+CUS116263536,Zoe,Chen,PAYG,083-823,Poor
+CUS700706162,Noah,Wilson,SME,086-756,Excellent
+CUS552225033,Willow,Tran,PAYG,084-670,Excellent
+CUS551421250,Lachlan,Wilson,Self-Employed,013-628,Excellent
+CUS488897841,Isla,Nguyen,Owner-Occupier,037-060,Excellent
+CUS822591479,Ruby,White,SME,032-520,Good
+CUS327079680,Charlotte,Wilson,SME,016-609,Good
+CUS003679170,Jack,Wilson,First-Home Buyer,032-520,Excellent
+CUS549857495,William,Chen,Self-Employed,062-004,Excellent
+CUS689745739,Willow,Wilson,SME,037-060,Fair
+CUS253896254,Henry,Nguyen,First-Home Buyer,033-954,Good
+CUS817860764,Henry,Chen,SME,032-520,Good
+CUS157702048,Oliver,Lee,Owner-Occupier,086-756,Good
+CUS960438165,Oliver,White,SME,064-310,Good
+CUS458853374,William,Tran,PAYG,065-638,Poor
+CUS421743008,Chloe,Kumar,PAYG,012-239,Fair
+CUS121446442,Thomas,Kumar,PAYG,064-310,Good
+CUS066609477,Ava,Smith,Owner-Occupier,034-829,Excellent
+CUS733912865,Olivia,Nguyen,PAYG,065-638,Good
+CUS155004899,Ethan,Smith,First-Home Buyer,013-628,Good
+CUS438710180,Hudson,Tran,First-Home Buyer,016-609,Good
+CUS953656150,Mia,Martin,PAYG,062-004,Poor
+CUS363711667,Henry,Anderson,PAYG,065-638,Fair
+CUS986081320,Olivia,Anderson,First-Home Buyer,018-614,Good
+CUS400706173,Charlotte,Anderson,Owner-Occupier,062-463,Poor
+CUS479726793,Henry,Tran,PAYG,062-004,Good
+CUS019230976,Oliver,Patel,PAYG,084-670,Excellent
+CUS913379515,Isla,Martin,Self-Employed,062-004,Good
+CUS634014735,Noah,Ryan,SME,018-614,Fair
+CUS390649177,Zoe,Ryan,PAYG,012-239,Good
+CUS861343997,Henry,Kelly,Investor,083-823,Good
+CUS895960656,Ruby,Patel,Investor,012-239,Good
+CUS436079036,Lachlan,Singh,Self-Employed,033-954,Excellent
+CUS448682029,Hudson,Nguyen,First-Home Buyer,018-614,Good
+CUS875277462,Charlotte,Ryan,SME,084-670,Excellent
+CUS904560104,Olivia,Singh,Investor,012-239,Good
+CUS425988085,Cooper,Brown,First-Home Buyer,086-756,Good
+CUS320110340,Liam,Nguyen,PAYG,037-060,Good
+CUS539555375,Liam,Kelly,Self-Employed,082-451,Excellent
+CUS383995257,Olivia,Wilson,Self-Employed,034-829,Fair
+CUS759535375,Chloe,Smith,PAYG,083-823,Excellent
+CUS890150957,Cooper,Jones,Owner-Occupier,062-004,Good
+CUS092840250,Mia,Tran,Self-Employed,062-463,Good
+CUS535034440,Mia,O'Brien,Self-Employed,034-829,Excellent
+CUS421217834,Ruby,Ryan,PAYG,086-756,Good
+CUS665847789,Isla,Kelly,Owner-Occupier,037-060,Good
+CUS460097483,Zoe,Ryan,PAYG,082-451,Good
+CUS716883931,Zoe,Walker,Self-Employed,062-004,Excellent
+CUS884048518,Jack,Brown,SME,013-628,Poor
+CUS786989092,Isla,White,Investor,084-670,Excellent
+CUS859900339,Mia,Walker,Investor,013-628,Excellent
+CUS243320502,Henry,Nguyen,PAYG,034-829,Fair
+CUS754251900,Mia,Patel,PAYG,065-638,Fair
+CUS626703944,Willow,Jones,Owner-Occupier,065-638,Poor
+CUS236416570,Chloe,Chen,SME,013-628,Excellent
+CUS840105958,William,Chen,PAYG,034-829,Good
+CUS380793737,Oliver,Anderson,Owner-Occupier,064-310,Fair
+CUS367369625,Charlotte,Singh,Owner-Occupier,064-310,Fair
+CUS429003621,William,Walker,Self-Employed,032-520,Fair
+CUS913423716,Henry,Martin,Investor,083-823,Excellent
+CUS286626981,Chloe,Kelly,Owner-Occupier,062-463,Good
+CUS350696484,William,Wilson,SME,082-451,Poor
+CUS104444312,Lachlan,Lee,Owner-Occupier,013-628,Good
+CUS659999437,Liam,Brown,First-Home Buyer,012-239,Fair
+CUS791206943,Ruby,Patel,Investor,065-638,Good
+CUS704258938,Noah,Patel,Self-Employed,018-614,Fair
+CUS010054780,Isla,White,Investor,084-670,Excellent
+CUS764586357,Ruby,Brown,PAYG,016-609,Good
+CUS299206628,Liam,Singh,PAYG,032-520,Fair
+CUS510274487,Ava,Williams,Owner-Occupier,062-463,Fair
+CUS731092128,Oliver,Kumar,PAYG,082-451,Good
+CUS155689308,Mia,Ryan,First-Home Buyer,062-004,Poor
+CUS730774798,Thomas,Smith,Self-Employed,064-310,Excellent
+CUS595141798,Thomas,Patel,PAYG,033-954,Good
+CUS675110681,William,Ryan,Investor,062-004,Poor
+CUS193274456,Noah,Nguyen,Owner-Occupier,034-829,Fair
+CUS722221192,Ethan,Wilson,Self-Employed,032-520,Excellent
+CUS405261180,Lachlan,White,SME,016-609,Poor
+CUS092774463,Oliver,O'Brien,Investor,084-670,Fair
+CUS925060832,Hudson,Anderson,First-Home Buyer,086-756,Fair
+CUS288529435,Isla,Ryan,Owner-Occupier,013-628,Fair
+CUS813236775,Oliver,Wilson,Investor,086-756,Excellent
+CUS218989966,Ava,O'Brien,First-Home Buyer,013-628,Excellent
+CUS457584246,Charlotte,Lee,SME,018-614,Fair
+CUS912496128,Oliver,Anderson,First-Home Buyer,033-954,Fair
+CUS311573464,Chloe,Nguyen,Investor,018-614,Good
+CUS730161198,Ethan,Ryan,Self-Employed,033-954,Excellent
+CUS550867542,Willow,Chen,Owner-Occupier,064-310,Good
+CUS512818126,Mia,Walker,Self-Employed,037-060,Good
+CUS417072512,Grace,Martin,PAYG,084-670,Good
+CUS120241727,Liam,Lee,PAYG,018-614,Excellent
+CUS156078613,Thomas,Chen,PAYG,034-829,Excellent
+CUS658367040,Amelia,Anderson,Investor,016-609,Fair
+CUS988970362,Willow,Ryan,Investor,033-954,Good
+CUS931526310,William,Singh,Owner-Occupier,086-756,Good
+CUS485670757,Lachlan,Chen,PAYG,064-310,Good
+CUS208695081,Willow,Tran,First-Home Buyer,062-463,Fair
+CUS153514209,Ruby,Patel,First-Home Buyer,034-829,Fair
+CUS215073213,Lachlan,White,Owner-Occupier,037-060,Excellent
+CUS077517141,Ruby,Walker,Self-Employed,013-628,Poor
+CUS253317471,Willow,Walker,Investor,083-823,Fair
+CUS680044466,Ruby,O'Brien,Owner-Occupier,062-004,Poor
+CUS369573710,Thomas,Anderson,First-Home Buyer,012-239,Good

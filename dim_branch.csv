@@ -1,0 +1,17 @@
+branch_bsb,branch_name,city,state,postcode,bank,opened_date
+062-463,Sydney CBD,Sydney,NSW,2000,CBA,2012-08-15
+032-520,Parramatta,Parramatta,NSW,2150,Westpac,2013-04-06
+083-823,Melbourne Central,Melbourne,VIC,3000,NAB,2011-08-21
+013-628,Geelong,Geelong,VIC,3220,ANZ,2000-02-15
+064-310,Brisbane City,Brisbane,QLD,4000,CBA,1999-02-18
+034-829,Gold Coast,Southport,QLD,4215,Westpac,2017-11-02
+016-609,Perth CBD,Perth,WA,6000,ANZ,2007-08-21
+086-756,Fremantle,Fremantle,WA,6160,NAB,2014-11-06
+065-638,Adelaide City,Adelaide,SA,5000,CBA,1995-09-03
+037-060,Hobart,Hobart,TAS,7000,Westpac,1996-04-08
+018-614,Darwin,Darwin,NT,0800,ANZ,1995-08-11
+082-451,Canberra Civic,Canberra,ACT,2601,NAB,2013-04-17
+012-239,Newcastle,Newcastle,NSW,2300,ANZ,2015-05-16
+062-004,Wollongong,Wollongong,NSW,2500,CBA,2016-02-15
+084-670,Cairns,Cairns,QLD,4870,NAB,2003-07-18
+033-954,Ballarat,Ballarat,VIC,3350,Westpac,1997-12-09

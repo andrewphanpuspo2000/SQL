@@ -487,6 +487,8 @@ INSERT INTO employee(emp_id,emp_name,department_name,salary,hire_date)
 select * from samsung.employee;
 
 select e1.*, row_number() over (order by e1.salary desc) as rn from samsung.employee e1;
+select e1.*, row_number() over (order by emp_id asc) as rn from samsung.employee e1;
+
 select e1.*, rank() over (order by e1.salary desc) as rnk from samsung.employee e1;
 select e1.*, dense_rank() over (order by e1.salary desc) as dr from samsung.employee e1;
 

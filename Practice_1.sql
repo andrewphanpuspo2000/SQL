@@ -191,3 +191,12 @@ select e1.employee_name,e1.department_id, d1.department_name, hd.hire_date,row_n
 from practice.employees e1
 inner join practice.departments d1 on e1.department_id=d1.department_id
 inner join practice.employee_hiredate hd on e1.hiredate_id= hd.id;
+
+-- Get the total salary of employees for each department, including departments that have no employees, 
+-- and show the hire date of the earliest employee hired.
+select d1.department_name,sum(e1.salary) as total_salary ,min(hd.hire_date)as earliest_hired_employee,row_number() over()
+from practice.departments d1
+left join practice.employees e1 on d1.department_id=e1.department_id
+left join practice.employee_hiredate hd on e1.hiredate_id= hd.id
+group by d1.department_name;
+

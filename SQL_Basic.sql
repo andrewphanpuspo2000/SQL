@@ -1109,3 +1109,135 @@ VALUES
 
 select *
 from myers.orders;
+
+
+-- stored procedures
+select * 
+from samsung.employee;
+-- no parameter
+create procedure selecting_data()
+select e1.*
+from samsung.employee e1; 
+
+call selecting_data();
+
+create procedure pro_cinema()
+select v1.*,d1.*,m1.* 
+from reading_cinema.visitors v1
+left join reading_cinema.details d1 
+on v1.visitor_id= d1.visitor_id
+left join  reading_cinema.movies m1
+on m1.movie_id=d1.movie_id
+;
+
+call pro_cinema();
+
+DELIMITER $$
+Create procedure select_movie()
+
+BEGIN 
+
+select m1.*
+from reading_cinema.movies m1;
+
+END $$
+DELIMITER ;
+
+call select_movie();
+
+
+-- triggers 
+
+
+
+-- input parameter
+-- write a sql query to find employee with id=105
+
+DELIMITER \\
+create procedure input_procedure_emp_id(
+IN EMP_ID INT
+)
+Begin
+	select e1.*
+	from samsung.employee e1
+	where e1.emp_id=EMP_ID;
+end \\
+DELIMITER ;
+
+call input_procedure_emp_id(111);
+
+-- output parameter
+
+-- write a procedure to find total salary of employees 
+DELIMITER \\
+create procedure pro_total_salary_emp(
+OUT TOTAL_SALARY DECIMAL(10,2)
+)
+Begin
+select sum(e1.salary) into TOTAL_SALARY
+from samsung.employee e1;
+end \\
+DELIMITER ;
+
+call pro_total_salary_emp(@TOTAL_SALARY);
+select @TOTAL_SALARY;
+
+
+-- Write a SQL procedure to find the avg salary of dep=? 
+DELIMITER \\
+Create procedure pro_avg_salary_dep(
+OUT avg_salary decimal(10,2),
+IN DEPARTMENT varchar(100)
+)
+Begin
+Select avg(e1.salary) into avg_salary
+from samsung.employee e1
+where e1.department_name=DEPARTMENT;
+
+end \\
+DELIMITER ;
+
+call pro_avg_salary_dep(@avg_salary,"HR");
+SELECT @avg_salary;
+
+
+-- triggers
+
+create table backup_employee(
+ emp_name varchar(100),
+ department_name varchar(100),
+ salary decimal(10,2),
+ hire_date date
+);
+-- after delete
+
+CREATE TRIGGER tr_backup_employees
+after delete on samsung.employee
+for each row
+ insert into samsung.backup_employee(emp_name,department_name,salary,hire_date)
+ values(old.emp_name,old.department_name,old.salary,old.hire_date);
+
+
+-- use begin and end statement
+DELIMITER //
+CREATE TRIGGER tr_backup_employees
+after delete on samsung.employee
+for each row
+begin 
+ insert into samsung.backup_employee(emp_name,department_name,salary,hire_date)
+ values(old.emp_name,old.department_name,old.salary,old.hire_date);
+end //
+DELIMITER ;
+
+
+select *
+from samsung.backup_employee;
+
+-- delete to trigger
+delete
+from samsung.employee
+where emp_id=102;
+
+-- update
+
+
